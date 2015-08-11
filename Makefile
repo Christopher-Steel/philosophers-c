@@ -33,7 +33,7 @@ endif
 
 EXEC		=	philo
 
-$(EXEC)		:		$(OBJ)
+$(EXEC)		:	$(OBJ)
 			$(CC) $(OBJ) -o $(EXEC) $(LDFLAGS) $(CFLAGS)
 
 all		:	$(EXEC)
